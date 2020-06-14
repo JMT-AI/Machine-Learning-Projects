@@ -1,4 +1,8 @@
-## Welcome to GitHub Pages
+## Welcome to Jean-Martial Tagro Portfolio
+
+Hello, I am Jean-Martial Tagro, a data scientist.
+...
+
 
 You can use the [editor on GitHub](https://github.com/JMT-AI/Portfolio/edit/master/README.md) to maintain and preview the content for your website in Markdown files.
 
