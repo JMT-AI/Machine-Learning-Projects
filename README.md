@@ -1,3 +1,5 @@
+# <h1><font color=blue>Jean-Martial Tagro, data scientist</font></h1>
+
 ### Bonjour, je suis Jean-Martial Tagro, data scientist. Cette page Web donne un aperçu de mes projets de science des données exécutant divers problèmes d'optimisation. Un lien github associé à chaque projet vous permettra d'en savoir plus.🙂
 
 ## 1. Prédiction de loyer d'appartements des arrondissements de Paris
