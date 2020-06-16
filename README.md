@@ -7,9 +7,9 @@ Le but de ce travail est de trouver le meilleur model pour prédire le loyer d'u
 Il s'agit d'un dataset très célèbre, appelé MNIST. Il est constitué d'un ensemble de 70000 images 28x28 pixels en noir et blanc annotées du chiffre correspondant (entre 0 et 9). L'objectif de ce jeu de données était de permettre à un ordinateur d'apprendre à reconnaître des nombres manuscrits automatiquement (pour lire des chèques par exemple). Ce dataset utilise des données réelles qui ont déjà été pré-traitées pour être plus facilement utilisables par un algorithme. Un extrait du type d'images que l'on trouve dans le dataset MNIST :
 OBJECTIF : Entraîner un modèle qui sera capable de reconnaître les chiffres écrits sur ce type d'images.
 
-   ## 2.1. Étude du K-NN sur le jeu de données MNIST
+   ### <a href=''>2.1. Étude du K-NN sur le jeu de données MNIST</a>
 
-   ## 2.2. Clustering des images du MNIST
+   ### <a href=''>2.2. Clustering des images du MNIST</a>
 
 
 ## 3. Ré-implémentation de GridSearchCV de la librairie scikit-learn pour la prédiction de la qualité du vin
@@ -35,10 +35,24 @@ From Kaggle : <a href='https://www.kaggle.com/uciml/human-activity-recognition-w
 Dans ce chapitre, on va appliquer l’algorithme des forêts aléatoires sur un sur des données réelles : le <a href='https://www.kaggle.com/uciml/human-activity-recognition-with-smartphones'>Human Activity Recognition Using Smartphones Data Set</a>. Il permet de reconnaître l’activité physique à partir de données du smartphone. Il est simple mais possède de nombreuses variables (> 500) ce qui va nous permettre d’étudier un certain nombre de choses.Dans ce chapitre, on va appliquer l’algorithme des forêts aléatoires sur un sur des données réelles : le <a href=''></a>. Il permet de reconnaître l’activité physique à partir de données du smartphone. Il est simple mais possède de nombreuses variables (> 500) ce qui va nous permettre d’étudier un certain nombre de choses.
 
 
-##  8. Implementation du VGG-16 (CNN) et mise en oeuvre du Transfert Learning pour la Computer Vision
+## 8. Implementation du VGG-16 (CNN) et mise en oeuvre du Transfert Learning pour la Computer Vision
 L'objet de notre étude est VGG-16, une version du réseau de neurones convolutif très connu appelé VGG-Net. Nous allons d'abord l'implémenter de A à Z pour découvrir Keras, puis nous allons voir comment classifier des images de manière efficace. Pour cela, nous allons exploiter le réseau VGG-16 pré-entraîné fourni par Keras, et mettre en oeuvre le Transfer Learning.
 
-## 9. Analyse de sentiments (NLP) via 3 approches : Sklearn simple, Pytorch simple, Pytorch-LSTM TORCH
+## 9. Etude de Churn via un ANN (Réseaux de Neurones Artificiels)
+
+## 10. Classification binaire d'animaux domestiques via un CNN (Réseaux de Neurones à Convolution)
+
+## 11. Prédiction (Tentative de modélisation de tendance) du prix de l'action Google via un RNN (Réseaux de Neurones Récurrents).
+
+## 12. DEEP LEARNING HYBRIDE : Implémentation d'une Carte Auto Adaptive pour la détection de fraude dans une enquête bancaire 
+
+## 13. Mise en place d'un système de recommandation de films grâce à une Machines de Boltzmann.
+
+## 14. Mise en place d'un auto encodeur empilé pour le scoring de films pour la recommandation.
+Comment gagner le prix Netflix de 1 million de $ grâce aux auto encodeurs empilés ? 😊
+
+
+## 15. Analyse de sentiments (NLP) via 3 approches : Sklearn simple, Pytorch simple, Pytorch-LSTM TORCH (en cours...)
 Il s'agit de l'analyse d'un dataset de sentiments composé de quelques millions d'avis clients Amazon (texte d'entrée) et d'étoiles (étiquettes de sortie).
 Ce dataset constitue de vraies données commerciales à une échelle raisonnable mais peut être appris en un temps relativement court sur un ordinateur portable modeste. Dans le dataset, label 1 : sentiment positif ; label 2 : sentiment négatif.<br>
 Source : voir <a href='https://www.kaggle.com/bittlingmayer/amazonreviews?select=test.ft.txt.bz2'>Kaggle</a>
