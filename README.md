@@ -1,8 +1,10 @@
-<h6><i><bold> Bonjour, je suis Jean-Martial Tagro, data scientist. Cette page Web donne un aperçu de mes principaux projets de science des données traitant divers problèmes d'optimisation. Un lien github associé à chaque projet vous permettra d'en savoir plus.🙂</bold></i></h6>
+<h4> <strong> 
+   <i> Bonjour, je suis Jean-Martial Tagro, data scientist. Cette page Web donne un aperçu de mes principaux projets de science des données traitant divers problèmes d'optimisation. Un lien github associé à chaque projet vous permettra d'en savoir plus.🙂</i>
+   </strong> </h6>
 
 
 <h2><a href=''> 1. Prédiction de loyer d'appartements des arrondissements de Paris </a></h2>
-Le but de ce travail est de trouver le meilleur model pour prédire le loyer d'un appartemant, connaissant sa surface et son arrondissement dans Paris. On considèrera dans un premier temps l'evaluation dans le cas de la baseline (la régression linéaire avec une seule feature : la surface) puis nous améliorerons les performances en considérant des features bidimentionnels : la surface et l'arrondissement.
+Le but de ce travail est de trouver le meilleur model pour prédire le loyer d'un appartement, connaissant sa surface et son arrondissement dans Paris. On considèrera dans un premier temps l'evaluation dans le cas de la baseline (la régression linéaire avec une seule feature : la surface) puis nous améliorerons les performances en considérant des features bidimentionnels : la surface et l'arrondissement.
 <a href =''> En savoir plus </a>
 
 
@@ -17,25 +19,25 @@ OBJECTIF : Entraîner un modèle qui sera capable de reconnaître les chiffres m
 
 <h2><a href=''> 3. Ré-implémentation de GridSearchCV de la librairie scikit-learn pour la prédiction de la qualité du vin </a></h2>
 Il s'agit d'une ré-implémentation de la fonction de validation croisée de la libraire scikit-learn (la fonction GridSearchCV), dans l’objectif d’effectuer la classification d'un dataset sur la qualité du vin.
-Attentes : L’algorithme devra permettre d’optimiser l’accuracy du modèle. La fonction prendra en entrée le tableau des hyperparamètres à tester ainsi que le nombre de folds. On utilisera des folds exacts (non randomisé) afin de pouvoir comparer les résultats.
+Attentes : L’algorithme devra permettre d’optimiser l’accuracy du modèle. La fonction prendra en entrée le tableau des hyperparamètres à tester ainsi que le nombre de folds. On utilisera des folds exacts (non randomisés) afin de pouvoir comparer les résultats.
 Il s'agira ensuite de comparer les performances de mon implémentation par rapport à l’implémentation scikit-learn. Pour cela, le professeur, Chloé-Agathe Azencott (Chargée de recherche au CBIO de MINES ParisTech & Institut Curie, enseignante à CentraleSupélec - Machine learning & bioinformatique), conseille dans un premier temps de ne pas randomiser la sélection des sets, mais de faire une sélection exacte afin de pouvoir comparer des résultats qui doivent être identiques entre mon implémentation et celle de scikit-learn.
 <a href =''> En savoir plus </a>
 
 
 <h2><a href=''> 4. Kaggle Competition : Leaf Classification - Classement automatique des feuilles d’arbres </a></h2>
 Le but de cette étude lancée par Kaggle est de construire le meilleur classifieur multi-classes pour catégoriser (espèces) automatiquement les feuilles, compte tenu de leurs caractéristiques : 3 vecteurs de dimension 64 (marge, forme & texture).
-<h4>Dataset source and description : <a href='https://www.kaggle.com/c/leaf-classification/data'> Kaggle</a></h4>
+Dataset source and description : <a href='https://www.kaggle.com/c/leaf-classification/data'> Kaggle</a>
 <a href =''> En savoir plus </a>
 
 
 <h2><a href=''> 5. SVM à noyau pour la prédiction de la qualité de vin </a></h2>
-On va entrainer un algorithme svm.SVC à classifier nos vins (bonne qualité ou pas terrible) en fonction des carateristiques physico-chimiques.
-Data source : <a href='https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality'>Archive UCI</a>
+On va entrainer un algorithme svm.SVC à classifier nos vins (bonne qualité ou pas terrible) en fonction des caractéristiques physico-chimiques.<br>
+Data source : <a href='https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality'>Archive UCI</a> 
 <a href =''> En savoir plus </a>
 
 
-<h2><a href=''> 6. Regression Ridge à noyau pour la prédiction de la qualité de vin </a></h2>
-On va maintenant entrainer un algorithme de regression ridge à noyau. Nous allons utiliser les données concernant les caractéristiques physico-chimiques de vins blancs portugais disponibles sur <a href='https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality'>l'archive UCI</a>. Il s'agit ici de prédire le score (entre 3 et 9) donné par des experts aux différents vins.
+<h2><a href=''> 6. Régression Ridge à noyau pour la prédiction de la qualité de vin </a></h2>
+On va maintenant entrainer un algorithme de régression ridge à noyau. Nous allons utiliser les données concernant les caractéristiques physico-chimiques de vins blancs portugais disponibles sur <a href='https://archive.ics.uci.edu/ml/machine-learning-databases/wine-quality'>l'archive UCI</a>. Il s'agit ici de prédire le score (entre 3 et 9) donné par des experts aux différents vins.
 <a href =''> En savoir plus </a>
 
 
@@ -62,24 +64,24 @@ On va dans ce sujet mettre en place un système capable de reconnaître la photo
 
 
 <h2><a href=''> 11. Prédiction (Tentative de modélisation de tendance) du prix de l'action Google via un RNN (Réseaux de Neurones Récurrents). </a></h2>
-Bien que le prix d'une action soit une métrique difficile à prédire, nous allons aller plus loin en exploitant la puissante des réseaux de neurones récurrents sur les données du prix de l'action Google entre 2012 et 2016 pour faire une prédiction sur 2017. L'objectif ici n'est pas de prédire la valeur de l'action Google sur 2017 mais de prédire sa <strong> tendance </strong> sur 2017. 
+Bien que le prix d'une action soit une métrique difficile à prédire, nous allons aller plus loin en exploitant la puissance des réseaux de neurones récurrents sur les données du prix de l'action Google entre 2012 et 2016 pour faire une prédiction sur 2017. L'objectif ici n'est pas de prédire la valeur de l'action Google sur 2017 mais de prédire sa <strong> tendance </strong> sur 2017. 
 <a href =''> En savoir plus </a>
 
 
 <h2><a href=''> 12. DEEP LEARNING HYBRIDE : Implémentation d'une Carte Auto Adaptive pour la détection de fraude dans une enquête bancaire </a></h2>
-Dans cette étude, il s'agit d'une banque qui a reçu d'une partie de ses clients des demandes de cartes de crédit. Pour soumettre leur demande, les clients doivent remplir un formulaire précisant la raison de la demande et differentes informations. La banque, qui a su intégrer le machine learning dans sa stratégie, veut pondérer des décisions (donner ou non la carte de crédit au client après le verdict d'experts sur l'intention du client c'est-à-dire s'il est un fraudeur ou non) avec les informations suggérées par ses données. 
-Pour découvrir 'ces informations cachées' nous mettrons en oeuvre premièrement un algorithme de deep learning non-supervisé : la SOM (Self Organizing Map) ou carte auto-adaptative pour découvrir les clients les plus susceptibles de frauder puis deuxiement nous passerons du non-supervisé au supervisé pour faire des prédictions sur des données de test.
+Dans cette étude, il s'agit d'une banque qui a reçu d'une partie de ses clients des demandes de cartes de crédit. Pour soumettre leur demande, les clients doivent remplir un formulaire précisant la raison de la demande et différentes informations. La banque, qui a su intégrer le machine learning dans sa stratégie, veut pondérer des décisions (donner ou non la carte de crédit au client après le verdict d'experts sur l'intention du client c'est-à-dire s'il est un fraudeur ou non) avec les informations suggérées par ses données. 
+Pour découvrir ces 'informations cachées' nous mettrons en oeuvre premièrement un algorithme de deep learning non-supervisé : la SOM (Self Organizing Map) ou carte auto-adaptative pour découvrir les clients les plus susceptibles de frauder puis deuxièmement nous passerons du non-supervisé au supervisé pour faire des prédictions sur des données de test.
 <a href =''> En savoir plus </a>
 
 
 <h2><a href=''> 13. Mise en place d'un système de recommandation grâce à une Machines de Boltzmann </a></h2>
-Ce travail concerne l'implémentation d'un système de recommandation de films via une machine de Boltzmann. L'objet est d'entraîner une machine de Boltzmann sur un jeu de données (voir <a href = 'https://grouplens.org/datasets/movielens/'> MovieLens </a>) très lourd (25 millions de films notés par les utilisateurs). On va dans un 1er temps de focaliser sur une portion de ce dataset (1 millions de films) pour construire notre machine de Boltzmann en vue de recommander aux clients des films de manière pertinente.
+Ce travail concerne l'implémentation d'un système de recommandation de films via une machine de Boltzmann. L'objet est d'entraîner une machine de Boltzmann sur un jeu de données (voir <a href = 'https://grouplens.org/datasets/movielens/'> MovieLens </a>) très lourd (25 millions de films notés par les utilisateurs). On va dans un 1er temps se focaliser sur une portion de ce dataset (1 millions de films) pour construire notre machine de Boltzmann en vue de recommander aux clients des films de manière pertinente.
 <a href =''> En savoir plus </a>   
 
 
 <h2><a href=''> 14. Mise en place d'un auto encodeur empilé * - Système de scoring de films pour la recommandation </a></h2>
-* Les auto-encodeurs sont une technique de Deep Learning assez récente.
-L'objet de ce projet est la mise en place d'un système de scoring de films via un auto encodeur empilé entrainé sur le dataset publié sur <a href = 'https://grouplens.org/datasets/movielens/'> MovieLens </a>.
+(*) * Les auto-encodeurs sont une technique de Deep Learning assez récente. (*)
+L'objet de ce projet est la mise en place d'un système de scoring de films via un auto encodeur empilé entrainé sur le dataset publié sur <a href = 'https://grouplens.org/datasets/movielens/'> MovieLens </a>. Le système est mis en oeuvre avec <a href='https://pytorch.org/resources/'>PyTorch</a>.
 <a href =''> En savoir plus </a>
 
 
