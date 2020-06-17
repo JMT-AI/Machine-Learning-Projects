@@ -1,15 +1,15 @@
-<h6><i><bold> Bonjour, je suis Jean-Martial Tagro, data scientist. Cette page Web donne un aperçu de mes projets de science des données exécutant divers problèmes d'optimisation. Un lien github associé à chaque projet vous permettra d'en savoir plus.🙂</bold></i></h6>
+<h6><i><bold> Bonjour, je suis Jean-Martial Tagro, data scientist. Cette page Web donne un aperçu de mes projets de science des données traitant divers problèmes d'optimisation. Un lien github associé à chaque projet vous permettra d'en savoir plus.🙂</bold></i></h6>
 
 ## 1. Prédiction de loyer d'appartements des arrondissements de Paris
 Le but de ce travail est de trouver le meilleur model pour prédire le loyer d'un appartemant, connaissant sa surface et son arrondissement dans Paris. On considèrera dans un dans un premier temps l'evaluation dans le cas de la baseline (la régression linéaire avec une seule feature : la surface) puis nous améliorerons les performances en considérant des features bidimentionnels : la surface et l'arrondissement.
 
-## 2. Le MNIST
+<h2><a href=''>2. Le MNIST </a></h2>
 Il s'agit d'un dataset très célèbre, appelé MNIST. Il est constitué d'un ensemble de 70000 images 28x28 pixels en noir et blanc annotées du chiffre correspondant (entre 0 et 9). L'objectif de ce jeu de données était de permettre à un ordinateur d'apprendre à reconnaître des nombres manuscrits automatiquement (pour lire des chèques par exemple). Ce dataset utilise des données réelles qui ont déjà été pré-traitées pour être plus facilement utilisables par un algorithme. Un extrait du type d'images que l'on trouve dans le dataset MNIST :
 OBJECTIF : Entraîner un modèle qui sera capable de reconnaître les chiffres écrits sur ce type d'images.
 
-   ### <a href=''>2.1. Étude du K-NN sur le jeu de données MNIST</a>
+   <h3><a href=''>2.1. Étude du K-NN sur le jeu de données MNIST</a></h3>
 
-   ### <a href=''>2.2. Clustering des images du MNIST</a>
+   <h3><a href=''>2.2. Clustering des images du MNIST</a></h3>
 
 
 ## 3. Ré-implémentation de GridSearchCV de la librairie scikit-learn pour la prédiction de la qualité du vin
