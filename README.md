@@ -80,7 +80,7 @@ Ce travail concerne l'implémentation d'un système de recommandation de films v
 
 
 <h2><a href=''> 14. Mise en place d'un auto encodeur empilé * - Système de scoring de films pour la recommandation </a></h2>
-<i>* Les auto-encodeurs sont une technique de Deep Learning assez récente.<i>
+<i>* Les auto-encodeurs sont une technique de Deep Learning assez récente.</i>
 L'objet de ce projet est la mise en place d'un système de scoring de films via un auto encodeur empilé entrainé sur le dataset publié sur <a href = 'https://grouplens.org/datasets/movielens/'> MovieLens </a>. Le système est mis en oeuvre avec <a href='https://pytorch.org/resources/'>PyTorch</a>.
 <a href =''> En savoir plus </a>
 
