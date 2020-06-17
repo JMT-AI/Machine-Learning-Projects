@@ -1,6 +1,6 @@
 <h4> <strong> 
    <i> Bonjour, je suis Jean-Martial Tagro, data scientist. Cette page Web donne un aperçu de mes principaux projets de science des données traitant divers problèmes d'optimisation. Un lien github associé à chaque projet vous permettra d'en savoir plus.🙂</i>
-   </strong> </h6>
+   </strong> </h4>
 
 
 <h2><a href=''> 1. Prédiction de loyer d'appartements des arrondissements de Paris </a></h2>
@@ -90,7 +90,7 @@ Il s'agit de l'analyse d'un dataset de sentiments composé de quelques millions 
 Ce dataset constitue de vraies données commerciales à une échelle raisonnable mais peut être appris en un temps relativement court sur un ordinateur portable modeste. Dans le dataset, label 1 : sentiment positif ; label 2 : sentiment négatif.<br>
 Source : voir <a href='https://www.kaggle.com/bittlingmayer/amazonreviews?select=test.ft.txt.bz2'>Kaggle</a>
 <br>Evidement, les 3 approches étudiées sont indépendantes.
-<a href =''> En savoir plus </a>
+<a href =''> En savoir plus </a> <br>
 
 ### Support or Contact
 
