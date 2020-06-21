@@ -24,7 +24,7 @@ Il s'agira ensuite de comparer les performances de mon implémentation par rappo
 <a href =''> En savoir plus </a>
 
 
-<h2><a href='https://github.com/JMT-AI/Portfolio/blob/master/3.%20Entrainement%20de%20modèle%20prédictif%20linéaire/Classement%20feuilles%20d'arbres_Livrable.ipynb'> 4. Kaggle Competition : Leaf Classification - Classement automatique des feuilles d’arbres </a></h2>
+<h2><a href="https://github.com/JMT-AI/Portfolio/blob/master/3.%20Entrainement%20de%20modèle%20prédictif%20linéaire/Classement%20feuilles%20d'arbres_Livrable.ipynb"> 4. Kaggle Competition : Leaf Classification - Classement automatique des feuilles d’arbres </a></h2>
 Le but de cette étude lancée par Kaggle est de construire le meilleur classifieur multi-classes pour catégoriser (espèces) automatiquement les feuilles, compte tenu de leurs caractéristiques : 3 vecteurs de dimension 64 (marge, forme & texture).
 Dataset source and description : <a href='https://www.kaggle.com/c/leaf-classification/data'> Kaggle</a>
 <a href =''> En savoir plus </a>
