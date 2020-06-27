@@ -41,7 +41,7 @@ On va maintenant entrainer un algorithme de régression ridge à noyau. Nous all
 <a href =''> En savoir plus </a>
 
 
-<h2><a href='https://github.com/JMT-AI/Portfolio/blob/master/5.%20Méthodes%20ensemblistes/Classement%20feuilles%20d'arbre_Random%20forest.ipynb'> 7. Human Activity Recognition Using Smartphones Data - Mesure de la puissance des forêts aléatoires </a></h2>
+<h2><a href="https://github.com/JMT-AI/Portfolio/blob/master/5.%20Méthodes%20ensemblistes/Classement%20feuilles%20d'arbre_Random%20forest.ipynb"> 7. Human Activity Recognition Using Smartphones Data - Mesure de la puissance des forêts aléatoires </a></h2>
 From Kaggle : <a href='https://www.kaggle.com/uciml/human-activity-recognition-with-smartphones'>Human Activity Recognition Using Smartphones Data Set</a>
 
 Dans ce projet Kaggle, on va appliquer l’algorithme des forêts aléatoires sur un dataset réel : le <a href='https://www.kaggle.com/uciml/human-activity-recognition-with-smartphones'>Human Activity Recognition Using Smartphones Data Set</a>. Il permet de reconnaître l’activité physique à partir de données du smartphone. Ce jeu de donnée à peu d'echantillons mais possède de nombreuses variables (plus de 500 variables). Cette étude consistera dans un 1er temps en une modélisation 'brute' (sans features engineering) puis dans un second temps avec features engineering. Nous essayerons de trouver un compromis performance / temps de calcul.
