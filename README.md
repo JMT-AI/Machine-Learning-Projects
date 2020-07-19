@@ -79,8 +79,8 @@ Ce travail concerne l'implémentation d'un système de recommandation de films v
 <a href ='https://github.com/JMT-AI/Portfolio/blob/master/Boltzmann_Machines/rbm.py'> En savoir plus </a>   
 
 
-<h2><a href=''> 14. Mise en place d'un auto encodeur empilé * - Système de scoring de films pour la recommandation </a></h2>
-<i>* Les auto-encodeurs sont une technique de Deep Learning assez récente.</i><br>
+<h2><a href=''> 14. Mise en place d'un auto encodeur empilé - Système de scoring de films pour la recommandation </a></h2>
+<br>
 L'objet de ce projet est la mise en place d'un système de scoring de films via un auto encodeur empilé entrainé sur le dataset publié sur <a href = 'https://grouplens.org/datasets/movielens/'> MovieLens </a>. Le système est mis en oeuvre avec <a href='https://pytorch.org/resources/'>PyTorch</a>.
 <a href ='https://github.com/JMT-AI/Portfolio/blob/master/AutoEncoders/ae.py'> En savoir plus </a>
 
