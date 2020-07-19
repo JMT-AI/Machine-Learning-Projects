@@ -20,7 +20,7 @@ OBJECTIF : Entraîner un modèle qui sera capable de reconnaître les chiffres m
 <h2><a href=''> 3. Ré-implémentation de GridSearchCV de la librairie scikit-learn pour la prédiction de la qualité du vin </a></h2>
 Il s'agit d'une ré-implémentation de la fonction de validation croisée de la libraire scikit-learn (la fonction GridSearchCV), dans l’objectif d’effectuer la classification d'un dataset sur la qualité du vin.
 Attentes : L’algorithme devra permettre d’optimiser l’accuracy du modèle. La fonction prendra en entrée le tableau des hyperparamètres à tester ainsi que le nombre de folds. On utilisera des folds exacts (non randomisés) afin de pouvoir comparer les résultats.
-Il s'agira ensuite de comparer les performances de mon implémentation par rapport à l’implémentation scikit-learn. Pour cela, le professeur, Chloé-Agathe Azencott (Chargée de recherche au CBIO de MINES ParisTech & Institut Curie, enseignante à CentraleSupélec - Machine learning & bioinformatique), conseille dans un premier temps de ne pas randomiser la sélection des sets, mais de faire une sélection exacte afin de pouvoir comparer des résultats qui doivent être identiques entre mon implémentation et celle de scikit-learn.
+Il s'agira ensuite de comparer les performances de mon implémentation par rapport à l’implémentation scikit-learn.
 <a href ='https://github.com/JMT-AI/Portfolio/blob/master/2.%20Evaluations%20KNN/Ré-implémentation%20de%20GridSearchCV_Livrable.ipynb'> En savoir plus </a>
 
 
