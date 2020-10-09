@@ -1,6 +1,3 @@
-<h4> <strong> 
-   <i> Bonjour, je suis Jean-Martial Tagro, data scientist. Cette page Web donne un aperçu de mes principaux projets de science des données traitant divers problèmes d'optimisation. Un lien github associé à chaque projet vous permettra d'en savoir plus.🙂</i>
-   </strong> </h4>
 
 
 <h2><a href=''> Prédiction de loyer d'appartements des arrondissements de Paris </a></h2>
