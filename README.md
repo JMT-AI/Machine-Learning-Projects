@@ -1,4 +1,19 @@
+<h2><a href=''> Étude d'un modèle de prédiction de nombre de vélos loués à chaque heure </a></h2>
+Le projet consiste à prévoir le nombre de vélos loués à chaque heure dans des bornes libres-services de la ville (système type Vélib'). La variable cible est ici la variable count.
+Voici un descriptif de l'ensemble des variables :
 
+- datetime - date et heure du relevé
+- season - 1 = printemps , 2 = été, 3 = automne, 4 = hiver
+- holiday – indique si le jour est un jour de vacances scolaires
+- workingday - indique si le jour est travaillé (ni week-end ni vacances)
+- weather - 1: Dégagé à nuageux, 2 : Brouillard, 3 : Légère pluie ou neige, 4 : Fortes averses ou neiges
+- temp – température en degrés Celsius
+- atemp – température ressentie en degrés Celsius
+- humidity – taux d’humidité
+- windspeed – vitesse du vent
+- casual - nombre de locations d’usagers non abonnés
+- registered – nombre de locations d’usagers abonnés
+- count – nombre total de locations de vélos
 
 <h2><a href=''> Prédiction de loyer d'appartements des arrondissements de Paris </a></h2>
 Le but de ce travail est de trouver le meilleur model pour prédire le loyer d'un appartement, connaissant sa surface et son arrondissement dans Paris. On considèrera dans un premier temps l'evaluation dans le cas de la baseline (la régression linéaire avec une seule feature : la surface) puis nous améliorerons les performances en considérant des features bidimentionnels : la surface et l'arrondissement.
